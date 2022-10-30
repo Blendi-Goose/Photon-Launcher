@@ -43,8 +43,8 @@ jobs:
       - run: flutter pub get
       - run: flutter config --enable-macos-desktop
       - run: brew install xcode
-      - run: flutter build macos -v
+      - run: flutter build macos
       - uses: actions/upload-artifact@v3
         with:
-          name: thepuzzlecell-macos
+          name: photonlauncher-macos
           path: build/macos/Build/Products/Release
