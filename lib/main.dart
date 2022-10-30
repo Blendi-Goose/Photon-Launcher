@@ -21,7 +21,7 @@ class PhotonLauncher extends StatelessWidget {
       title: 'Photon Launcher',
       theme: ThemeData.light(useMaterial3: true),
       darkTheme: ThemeData.dark(useMaterial3: true),
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
