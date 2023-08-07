@@ -7,7 +7,7 @@ A ⚡ <strong style="color: yellow">blazingly fast</strong> ⚡, 🎮 game-chang
 # How does it work?
 
 We get some data from <a href="https://PhotonVersionRepo.bledniappel.repl.co" style="color: darkred">the backend</a>.
-After that, we decode the info using `dart:convert` and display to the user ⚡ <strong style="color: yellow">blazingly fast</strong> ⚡ the versions available according to <a href="https://PhotonVersionRepo.bledniappel.repl.co" style="color: darkred">the backend</a>. After that, you select one, and either download the version (using <a href="https://pub.dev/packages/dio">Dio</a>), or directly play from cache.
+After that, we decode the info using `dart:convert` and display the available versions to the user ⚡ <strong style="color: yellow">blazingly fast</strong> ⚡ according to <a href="https://PhotonVersionRepo.bledniappel.repl.co" style="color: darkred">the backend</a>. After that, you select one, and either download the version (using <a href="https://pub.dev/packages/dio">Dio</a>), or directly play from cache.
 
 # How fast is it?
 
